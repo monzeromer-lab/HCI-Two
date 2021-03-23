@@ -1,0 +1,38 @@
+{
+  "name": "The-National-Ribat-University",
+  "version": "1.0.0",
+  "description": "First Project For Hci Subject created by monzer , abazar and mafaz",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "com.maz.hci",
+    "copyright": "Copyright © 2021 MAZ"
+  },
+  "win": {
+    "target": "NSIS",
+    "icon": "./icon.png"
+  },
+  "keywords": [
+    "nodejs",
+    "electronjs",
+    "html5",
+    "bootstrap4",
+    "css3",
+    "javascript"
+  ],
+  "author": "MAZ",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "electron": "^11.3.0",
+    "electron-builder": "^22.10.5"
+  }
+}

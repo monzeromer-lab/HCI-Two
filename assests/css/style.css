@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "cairo";
+    src: url(../font/Cairo-SemiBold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "tajawal";
+    src: url(../font/Tajawal-Medium.ttf) format("truetype");
+}
+
+.cairofont{
+    font-family: cairo;
+    font-size: large;
+}
+
+.tajfont{
+    font-family: tajawal;
+    font-size: large;
+}
+
+.mover{
+    margin-top: 20px;
+    margin-left: 43%;
+}
